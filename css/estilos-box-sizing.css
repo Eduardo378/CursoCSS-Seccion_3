@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+	text-align: center;
+	color:#e63946;
+}
+div{
+	border:0px solid #457b9d;
+	margin:0px;
+	background-color:#f1faee;
+	width:300px;
+    box-sizing:border-box;
+    padding:10px 5px;
+}
