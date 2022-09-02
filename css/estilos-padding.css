@@ -1,0 +1,40 @@
+h1{
+	text-align: center;
+	color:#e63946;
+}
+div{
+	border:15px solid #457b9d;
+	margin:30px;
+	background-color:#f1faee;
+	width:300px;
+}
+
+/*el padding se pueden utilizar valores separados (top, right,bottom,left)*/
+/*padding es lo que separa el contenido del borde*/
+
+/*---------------valores---------------*/
+/*padding:10px;*/
+/*el 10px aplica para todos los lados (top,right,bottom,left)*/
+/*padding:10px 5px*/
+/*cuando son dos valores, el primer valor es para top y bottom, el segundo valor es para right y left*/
+/*padding:10px 5px 15px;*/
+/*cuando son tres valores, el primer valor es para top, el segundo valor es para right y left, y el ultimo valor es para 
+bottom*/
+/*padding:10px 15px 10px 15px*/
+/*cuando son 4 valores, el primer valor es de top, el segundo es de right, el tercero de bottom, y el ultimo es de left*/
+
+/*en vez de especificar cada uno de los lados con valores distintos, se aplican en una sola linea*/
+/*-----------podemos pasar de esto:----------
+padding-top:10px;
+padding-right:5px;
+padding-left:5px;
+padding-bottom:15px;
+
+a esto:
+padding: 10px 5px 15px;
+*/
+.solid{
+    padding:10px 5px;
+	outline:10px solid #a8dadc;
+    outline-offset: 10px;
+}
